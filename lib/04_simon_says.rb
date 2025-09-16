@@ -4,16 +4,17 @@ end
 
 def shout(word)
    word.upcase
-end 
+end
 
-def repeat(word,n=2)
-    ([word] * n).join(" ")
+def repeat(string, times = 2)
+
 end
 
 def repeat(word, n)
-  repeat [word] * n  
+  ([word] * n).join(" ")
 end
 
-def start_of_word(word , n)
-    start_of_word ("#{word}, " * n)
-end 
+
+
+
+
